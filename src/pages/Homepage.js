@@ -8,21 +8,21 @@ function Homepage() {
       name: 'Greek Salad',
       price: '$12.99',
       description: 'The famous greek salad of crispy romaine, onions, olives, and feta cheese, garnished with crunchy garlic croutons.',
-      image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80'
+      image: 'https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 2,
       name: 'Bruschetta',
       price: '$5.99',
       description: 'Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.',
-      image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=400&q=80'
+      image: 'https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 3,
       name: 'Lemon Dessert',
       price: '$5.00',
       description: 'This comes straight from grandma’s recipe book, every single ingredient has been sourced and is as authentic as can be.',
-      image: 'https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=400&q=80'
+      image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80'
     }
   ];
 
@@ -49,7 +49,7 @@ function Homepage() {
           </div>
           <div className="hero-image">
             <img
-              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80"
+              src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80"
               alt="Little Lemon food platter"
             />
           </div>
@@ -110,7 +110,7 @@ function Homepage() {
           </div>
           <div className="about-images">
             <img
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80"
+              src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80"
               alt="Little Lemon restaurant interior"
             />
           </div>
