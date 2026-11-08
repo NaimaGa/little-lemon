@@ -3,7 +3,10 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 import Homepage from '../pages/Homepage';
 import BookingPage from '../pages/BookingPage';
 import ConfirmedBooking from '../pages/ConfirmedBooking';
-import PlaceholderPage from '../pages/PlaceholderPage';
+import AboutPage from '../pages/AboutPage';
+import MenuPage from '../pages/MenuPage';
+import OrderOnlinePage from '../pages/OrderOnlinePage';
+import LoginPage from '../pages/LoginPage';
 
 // Helper for fallback times if global API isn't present in testing/local environment
 export const fetchAPI = (date) => {
@@ -51,7 +54,7 @@ function Main() {
   };
 
   return (
-    <main>
+    <main id="main-content" tabIndex="-1">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route
@@ -65,10 +68,10 @@ function Main() {
           }
         />
         <Route path="/confirmed" element={<ConfirmedBooking />} />
-        <Route path="/about" element={<PlaceholderPage title="About Us" />} />
-        <Route path="/menu" element={<PlaceholderPage title="Our Menu" />} />
-        <Route path="/order-online" element={<PlaceholderPage title="Order Online" />} />
-        <Route path="/login" element={<PlaceholderPage title="Login" />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/menu" element={<MenuPage />} />
+        <Route path="/order-online" element={<OrderOnlinePage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
     </main>
   );

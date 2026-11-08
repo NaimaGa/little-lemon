@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import BookingForm from './Components/BookingForm';
-import { initializeTimes, updateTimes } from './Components/Main';
+import BookingForm from './BookingForm';
+import { initializeTimes, updateTimes } from './Main';
 
 // Mock course API on window object for testing environment
 beforeEach(() => {
